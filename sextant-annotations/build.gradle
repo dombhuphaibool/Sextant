@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+//configurations {
+//    provided
+//    compile.extendsFrom provided
+//}
+
+// For Java-only module, we also need to include the SDK repository explicitly
+// (Android application and Android library module includes this path automatically)
+repositories {
+    maven { url '/Users/dombhuphaibool/Dev/Android/sdk/extras/android/m2repository' }
+}
+
+dependencies {
+    compile project(':sextant-annotations')
+    // provided deps.android
+    compile deps.supportAnnotations
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

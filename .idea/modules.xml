@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SextantLib.iml" filepath="$PROJECT_DIR$/SextantLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sextant/sextant.iml" filepath="$PROJECT_DIR$/sextant/sextant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sextant-annotations/sextant-annotations.iml" filepath="$PROJECT_DIR$/sextant-annotations/sextant-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sextant-compiler/sextant-compiler.iml" filepath="$PROJECT_DIR$/sextant-compiler/sextant-compiler.iml" />
+    </modules>
+  </component>
+</project>

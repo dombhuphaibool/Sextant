@@ -1,0 +1,1 @@
+include ':sextant', ':sextant-annotations', ':sextant-compiler'
